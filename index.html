@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>project web</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+
+ 
+  
+
+  
+ 
+ .p{color:rgb(102, 87, 0);
+ font-size:70px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align:center;
+position: absolute;
+top: 5%;
+right: 30%;
+left: 30%;
+bottom: 100px;
+
+ }
+.p:hover{ color:rgb(36, 31, 1);
+}
+
+
+ .para1{font-size:35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(102, 87, 0) ;
+    position: absolute;
+top: 240%;
+right: 100px;
+left: 900px;
+bottom: 100px;
+text-decoration: none;
+ }
+ 
+
+ 
+
+
+ .para2 {font-size:40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(102, 87, 0);
+    position: absolute;
+top: 240%;
+right: 550px;
+left: 100px;
+bottom: 100px;
+}
+
+
+.para3{font-size:40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(102, 87, 0);
+    position: absolute;
+top: 220%;
+right: 200px;
+left: 500px;
+bottom:10px;
+
+}
+
+
+
+
+
+.body{background-color: rgb(0, 0, 0);
+
+}
+
+.sult{ position: absolute;
+  top:350px;
+right: 150px;
+left: 100px;
+bottom: auto;
+background-color:rgb(119, 102, 5);
+color: rgb(9, 0, 0);
+border-bottom: 50px;
+font-size: 30px;
+border-radius: 10px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+.sul{ position: absolute;
+    top:400px;
+right: 150px;
+left: 100px;
+bottom: auto;
+background-color:rgb(119, 102, 5);
+color: rgb(9, 0, 0);
+border-bottom: 50px;
+font-size: 30px;
+border-radius: 10px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.su{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: absolute;
+    top:450px;
+right: 150px;
+left: 100px;
+bottom: auto;
+background-color:rgb(119, 102, 5);
+color: rgb(9, 0, 0);
+border-bottom: 50px;
+font-size: 30px;
+border-radius: 10px;
+}
+.su:hover{ color:rgb(36, 31, 1);
+}
+
+
+#m1{
+  color: red;
+}
+
+#m2{
+  color:gray;
+}
+#v{
+  background-color:rgb(53, 51, 51);
+}
+
+.arrowdown {
+  border: solid rgb(0, 0, 0);
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+</style>
+</head>
+<body class="body">
+
+  
+   
+    <div id="img1">
+      
+      <img src="Main-Dining-Room-2.webp"
+       width="100%" height="100%"/>
+        </div>
+        
+        <div id="v">
+          
+          <video width="430" height="500" controls>
+            <source src="Pexels Videos 1111420.mp4" type="video/mp4">
+            <source src="Pexels Videos 1111420.ogg" type="video/ogg">
+          <br></video>
+          <video width="480" height="500" controls>
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.mp4" type="video/ogg">
+          </video>
+          
+          <video width="520" height="500" controls>
+            <source src=" video_preview_h264.mp4" type="video/mp4">
+            <source src=" video_preview_h264.mp4" type="video/ogg">
+          
+         
+        </div>
+
+  
+   <h1 class="p"> Cafe & restaurant </h1>
+  
+
+  
+    <br>
+    <!--<table><tr>-->
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="sul" >menu</button></p><br>
+  
+ <br> <p><button onclick="document.getElementById('contact').style.display='block'" class="sult">contact</button></p><br>
+
+ <br> <p><button onclick="document.getElementById('Make order').style.display='block'" class="su">Make order</button></p><br>
+
+<br>
+
+
+
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1 id="m2">Starters</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Tomato Soup <b id="m1">2.50jd</b></h5>
+      <h5>Chicken Salad <b id="m1">3.50jd</b></h5>
+      <h5>Bread and Butter <b id="m1">1.00jd</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1 id="m2">Main Courses</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Grilled Fish and Potatoes <b id="m1">8.50jd</b></h5>
+      <h5>Italian Pizza <b id="m1">5.50jd</b></h5>
+      <h5>Veggie Pasta <b id="m1"id="m1">4.00jd</b></h5>
+      <h5>Chicken and Potatoes <b id="m1">6.50jd</b></h5>
+      <h5>Deluxe Burger <b id="m1">5.00jd</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1 id="m2">Desserts</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Fruit Salad <b id="m1">2.50jd</b></h5>
+      <h5>Ice cream <b id="m1">2.00jd</b></h5>
+      <h5>Chocolate Cake <b id="m1">4.00jd</b></h5>
+      <h5>Cheese <b id="m1">5.50jd</b></h5>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+
+
+<p class="para1">monday - friday 10-2 | saturday 9-11 </p><br>
+    <p class="para2">Jordan/Amman-AL.salt </p>
+      <p class="para3">presentation videos:  <i class="arrowdown"></i></p>
+      
+    
+
+
+<!-- Contact Modal -->
+
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1 id="m2">Contact</h1>
+    </div>
+    <div class="w3-container">
+      <p>Reserve a table, ask for today's special or just send us a message:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2023-1-12-T20:00"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+        <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
+      </div>
+      </form>
+    
+    
+  </div>
+</div>
+<br>
+<br>
+<!-- Make order Modal -->
+
+<div id="Make order" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('Make order').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1 id="m2">Make an order</h1>
+    </div>
+    <div class="w3-container">
+      <p>make an order :</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="type of foods" required name="foods type order"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="number of content foods" required name="number of content" value="3"></p>
+        <p><button class="w3-button" type="submit">SEND order</button></p>
+      </div>
+      </form>
+    
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
