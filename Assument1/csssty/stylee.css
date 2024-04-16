@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+.Su{
+    width: 100%;
+    overflow: none;
+  }
+  
+  
+  .content-name{
+    overflow:auto;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    float: right;
+    margin-right: 160px;
+    margin-top: 20px;
+    font-weight: bold;
+    position: relative;
+    font-size:20px;
+  }
+  
+  .content{
+    border: 3px solid gray;
+    width: 100%;
+    height: auto;
+   margin-bottom: auto;
+    color: black;
+    font-size: 19px;
+   text-align: left;
+    padding: 5%;
+    padding-top: 80px;
+    background-color : gray;
+   }
+  
+  .name1{
+    background-color:gray;
+  }
+  
+ 
+  
+  @media (min-width: 992px) {
+    .Sultan1 {
+  margin-bottom: auto;
+  margin-left: 470px;
+      width: 33.33%;
+    }
+  }
+
+ 
+  
+ 
+  
